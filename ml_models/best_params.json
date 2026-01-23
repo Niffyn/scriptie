@@ -1,0 +1,11 @@
+{
+    "device": "cuda",
+    "tree_method": "hist",
+    "eval_metric": "logloss",
+    "objective": "binary:logistic",
+    "max_depth": 4,
+    "learning_rate": 0.01,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8,
+    "n_estimators": 300
+}
